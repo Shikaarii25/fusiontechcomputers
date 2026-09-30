@@ -1,0 +1,2 @@
+Fusiontech Cloud Edition V4.0.0
+Separate cloud-native build. Does not modify or depend on Fusiontech V3 local files.

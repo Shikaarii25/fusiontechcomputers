@@ -1,0 +1,18 @@
+{
+  "name": "fusiontech-cloud-v4",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Fusiontech Cloud Edition — Netlify + Postgres + serverless business platform",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "node scripts/build-check.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "latest",
+    "@netlify/database": "latest",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {}
+}
